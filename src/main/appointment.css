@@ -1,0 +1,71 @@
+body {
+    padding: 0;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-image: url('/src/main/doc.png'), url('https://img.freepik.com/free-photo/health-still-life-with-copy-space_23-2148854031.jpg?semt=ais_hybrid');
+    background-position: 85% 70px, center;
+    background-size: contain, cover;
+    background-repeat: no-repeat, no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="password"],
+input[type="number"] {
+    width: 200px;
+    height: 30px;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    transition: 0.3s;
+    background-color: white;
+    color: black;
+}
+
+input[type="text"]:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.city-dropdown {
+    width: 230px;
+    height: 50px;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    transition: 0.3s;
+    background-color: white;
+    color: black;
+}
+
+.city-dropdown:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.reg {
+    top: 130px;
+    right: 90%;
+    position: relative;
+    color: black;
+    font-size: 17px;
+    border: 2px solid #6d6b6b;
+    background-color: rgb(255, 255, 255);
+    padding: 50px;
+    padding-right: 60px;
+    border-radius: 25px;
+    margin-right: -90%;
+    margin-left: 90%;
+}
+
+label {
+    display: flex;
+}

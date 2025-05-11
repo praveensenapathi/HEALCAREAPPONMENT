@@ -1,0 +1,64 @@
+body {
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-position: 85% 70px, center;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: white;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    color: rgb(74, 70, 70);
+
+}
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin-right: 60px;
+
+}
+
+.navbar-links li {
+    display: inline;
+    margin-right: 30px;
+
+}
+
+.navbar-links a {
+    color: rgba(80, 80, 80, 0.836);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s;
+    font-size: 13px;
+
+}
+
+
+
+#img {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.navimg {
+    height: 65px;
+}
+.button{
+    margin: 0px;
+}

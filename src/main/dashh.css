@@ -1,0 +1,25 @@
+.dash{
+    display: flex;
+    gap: 250px;
+}
+.dbox{
+    width: 120%;
+    height: 55vh;
+    border-radius: 15px;
+    border: 2px solid rgb(183, 182, 182);
+    background-color: rgba(255, 255, 255, 0.882);
+    margin: 20px;
+    margin-top: 60%;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+    left: -70px;
+    box-shadow: 0 4px 8px rgba(236, 235, 235, 0.9);
+    color: #333;
+    padding: 20px;
+    font-size: 18px;
+}
+h1{
+    margin-top: 150px;
+    text-decoration: none;
+}

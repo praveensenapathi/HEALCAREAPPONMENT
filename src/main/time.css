@@ -1,0 +1,54 @@
+
+.ttt {
+    margin-top: 28%;
+    position: relative;
+    font-size: 17px;
+    background-color: rgb(255, 255, 255);
+    padding: 50px;
+    padding-right: 100px;
+    border-radius: 25px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3), -2px -2px 5px rgba(255, 255, 255, 0.7);
+    
+}
+.time{
+    position: relative;
+    color: black;
+    font-size: 17px;
+    border: 2px solid #6d6b6b;
+    background-color: rgba(39, 197, 86, 0.847);
+    padding: 20px;
+    border-radius: 25px;
+    margin: 15px;
+    }
+.group {
+    display: flex;
+    
+}
+
+.dob {
+    display: flex;
+    gap: 150px;
+}
+
+.pid {
+    display: flex;
+    gap: 70px;
+}
+
+.radio {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.pass {
+    display: flex;
+    gap: 70px;
+}
+
+.photo {
+    position: absolute;
+    right: -120px;
+    top: -40px;
+    border: 1.5px solid rgba(80, 80, 80, 0.499);
+
+}

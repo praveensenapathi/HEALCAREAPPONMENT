@@ -1,0 +1,87 @@
+.profile-container {
+    font-family: Arial, sans-serif;
+    padding: 40px;
+    max-width: 600px;
+    margin: 0 auto;
+    left: 50%;
+    justify-content: end;
+}
+
+.sett {
+    top: -50%;
+    margin-top: -60px;
+}
+
+.profile-header {
+    font-size: 28px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.profile-card {
+    background-color: #f4f6f8;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.info-group {
+    margin-bottom: 15px;
+}
+
+.label {
+    font-weight: bold;
+    color: #555;
+}
+
+.value {
+    margin-left: 10px;
+    color: #333;
+}
+
+.appointment-item {
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    border-left: 5px solid #0d6efd;
+    border-right: 5px solid #0d6efd;    
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease;
+    width: 150%;
+    margin-left: -40%;
+}
+
+.appointment-item:hover {
+    transform: translateY(-2px);
+}
+
+.status {
+    font-weight: bold;
+    padding: 2px 8px;
+    border-radius: 4px;
+}
+
+.status.accepted {
+    color: #198754;
+    background-color: #d1e7dd;
+}
+
+.status.pending {
+    color: #856404;
+    background-color: #fff3cd;
+}
+
+.status.rejected {
+    color: #842029;
+    background-color: #f8d7da;
+}
